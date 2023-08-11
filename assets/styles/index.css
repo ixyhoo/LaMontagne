@@ -147,6 +147,21 @@ header nav .nav-left li:hover {
   background: rgb(255, 255, 255);
   color: rgb(17, 17, 17);
 }
+header nav .nav-right {
+  font-size: 1.1rem;
+  min-width: 100px;
+  width: 25%;
+  max-width: 300px;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+header nav .nav-right li {
+  transition: 0.15s;
+  cursor: pointer;
+}
+header nav .nav-right li:hover {
+  transform: scale(1.3);
+}
 
 img {
   width: 50%;

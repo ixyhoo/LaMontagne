@@ -85,5 +85,21 @@ header {
                 }
             }
         }
+        .nav-right {
+            font-size: 1.1rem;
+            min-width: 100px;
+            width: 25%;
+            max-width: 300px;
+            justify-content: space-around;
+            margin-right: 10px;
+            li {
+                transition: 0.15s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
     }
 }
