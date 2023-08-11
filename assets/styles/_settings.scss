@@ -13,3 +13,10 @@ $white1: rgb(255, 255, 255);
 $grey1: rgb(238, 238, 238);
 $grey2: rgb(204, 204, 204);
 $grey3: rgb(153, 153, 153);
+
+@mixin title {
+    font-family: $font1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
