@@ -64,6 +64,50 @@ body:before {
   transform: scale(1.1);
 }
 
+header {
+  color: rgb(255, 255, 255);
+  position: relative;
+  min-height: 100vh;
+}
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: headerAnim 1.5s ease forwards;
+}
+@keyframes headerAnim {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+header .header-content h1 {
+  font-family: inter-bold, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 4rem;
+  letter-spacing: 6px;
+}
+header .header-content p {
+  margin: 40px auto;
+  font-style: italic;
+  width: 85%;
+}
+header .header-content span {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   width: 50%;
 }/*# sourceMappingURL=index.css.map */
