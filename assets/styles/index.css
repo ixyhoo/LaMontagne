@@ -357,4 +357,18 @@ footer .infos-contact div p {
   line-height: 26px;
   text-align: left;
   color: gray;
+}
+footer .infos-contact .social ul {
+  display: flex;
+}
+footer .infos-contact .social ul li {
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 150px;
+  height: 40px;
+  width: 40px;
+  font-size: 0.9rem;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
