@@ -275,4 +275,24 @@ main .section2 .right-part p {
 }
 main .section2 .left-part {
   border-right: 1px solid rgb(238, 238, 238);
+}
+
+footer {
+  background: rgb(204, 204, 204);
+  min-height: 640px;
+  width: 85%;
+  margin: 0 auto 70px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 700px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+footer form {
+  display: grid;
+  gap: 18px;
+  padding: 60px 50px;
+  grid-template-rows: 18px 45px 18px 45px 18px 200px 1fr;
 }/*# sourceMappingURL=index.css.map */
