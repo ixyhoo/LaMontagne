@@ -1,3 +1,39 @@
+main {
+    width: 85%;
+    margin: 0 auto 30px;
+    background: $white1;
+}
+
 img {
-    width: 50%;
+    width: 100%;
+}
+
+.section1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+span {
+    padding: 70px 0;
+    position: relative;
+    display: block;
+}
+
+&:befor,
+&:after {
+    content: "";
+    position: absolute;
+    width: 37%;
+    height: 1px;
+    background: $grey1;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media screen and (max-width: 700px) {
+        width: 30%;
+    }
+
+    @media screen and (max-width: 700px) {
+        width: 24%;
+    }
 }
